@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A5B4121D41BBF40041F963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5B4111D41BBF40041F963 /* AppDelegate.swift */; };
+		79A5B4141D41BBF40041F963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5B4131D41BBF40041F963 /* ViewController.swift */; };
+		79A5B4171D41BBF40041F963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A5B4151D41BBF40041F963 /* Main.storyboard */; };
+		79A5B41A1D41BBF40041F963 /* HBOOK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79A5B4181D41BBF40041F963 /* HBOOK.xcdatamodeld */; };
+		79A5B41C1D41BBF40041F963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A5B41B1D41BBF40041F963 /* Assets.xcassets */; };
+		79A5B41F1D41BBF40041F963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A5B41D1D41BBF40041F963 /* LaunchScreen.storyboard */; };
+		79A5B42A1D41BBF40041F963 /* HBOOKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5B4291D41BBF40041F963 /* HBOOKTests.swift */; };
+		79A5B4351D41BBF40041F963 /* HBOOKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5B4341D41BBF40041F963 /* HBOOKUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79A5B4261D41BBF40041F963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A5B4061D41BBF40041F963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A5B40D1D41BBF40041F963;
+			remoteInfo = HBOOK;
+		};
+		79A5B4311D41BBF40041F963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A5B4061D41BBF40041F963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A5B40D1D41BBF40041F963;
+			remoteInfo = HBOOK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79A5B40E1D41BBF40041F963 /* HBOOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBOOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A5B4111D41BBF40041F963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79A5B4131D41BBF40041F963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79A5B4161D41BBF40041F963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79A5B4191D41BBF40041F963 /* HBOOK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HBOOK.xcdatamodel; sourceTree = "<group>"; };
+		79A5B41B1D41BBF40041F963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A5B41E1D41BBF40041F963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79A5B4201D41BBF40041F963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A5B4251D41BBF40041F963 /* HBOOKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBOOKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A5B4291D41BBF40041F963 /* HBOOKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOOKTests.swift; sourceTree = "<group>"; };
+		79A5B42B1D41BBF40041F963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A5B4301D41BBF40041F963 /* HBOOKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBOOKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A5B4341D41BBF40041F963 /* HBOOKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOOKUITests.swift; sourceTree = "<group>"; };
+		79A5B4361D41BBF40041F963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A5B40B1D41BBF40041F963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A5B4221D41BBF40041F963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A5B42D1D41BBF40041F963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A5B4051D41BBF40041F963 = {
+			isa = PBXGroup;
+			children = (
+				79A5B4101D41BBF40041F963 /* HBOOK */,
+				79A5B4281D41BBF40041F963 /* HBOOKTests */,
+				79A5B4331D41BBF40041F963 /* HBOOKUITests */,
+				79A5B40F1D41BBF40041F963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A5B40F1D41BBF40041F963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A5B40E1D41BBF40041F963 /* HBOOK.app */,
+				79A5B4251D41BBF40041F963 /* HBOOKTests.xctest */,
+				79A5B4301D41BBF40041F963 /* HBOOKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A5B4101D41BBF40041F963 /* HBOOK */ = {
+			isa = PBXGroup;
+			children = (
+				79A5B4111D41BBF40041F963 /* AppDelegate.swift */,
+				79A5B4131D41BBF40041F963 /* ViewController.swift */,
+				79A5B4151D41BBF40041F963 /* Main.storyboard */,
+				79A5B41B1D41BBF40041F963 /* Assets.xcassets */,
+				79A5B41D1D41BBF40041F963 /* LaunchScreen.storyboard */,
+				79A5B4201D41BBF40041F963 /* Info.plist */,
+				79A5B4181D41BBF40041F963 /* HBOOK.xcdatamodeld */,
+			);
+			path = HBOOK;
+			sourceTree = "<group>";
+		};
+		79A5B4281D41BBF40041F963 /* HBOOKTests */ = {
+			isa = PBXGroup;
+			children = (
+				79A5B4291D41BBF40041F963 /* HBOOKTests.swift */,
+				79A5B42B1D41BBF40041F963 /* Info.plist */,
+			);
+			path = HBOOKTests;
+			sourceTree = "<group>";
+		};
+		79A5B4331D41BBF40041F963 /* HBOOKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79A5B4341D41BBF40041F963 /* HBOOKUITests.swift */,
+				79A5B4361D41BBF40041F963 /* Info.plist */,
+			);
+			path = HBOOKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A5B40D1D41BBF40041F963 /* HBOOK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A5B4391D41BBF40041F963 /* Build configuration list for PBXNativeTarget "HBOOK" */;
+			buildPhases = (
+				79A5B40A1D41BBF40041F963 /* Sources */,
+				79A5B40B1D41BBF40041F963 /* Frameworks */,
+				79A5B40C1D41BBF40041F963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBOOK;
+			productName = HBOOK;
+			productReference = 79A5B40E1D41BBF40041F963 /* HBOOK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79A5B4241D41BBF40041F963 /* HBOOKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A5B43C1D41BBF40041F963 /* Build configuration list for PBXNativeTarget "HBOOKTests" */;
+			buildPhases = (
+				79A5B4211D41BBF40041F963 /* Sources */,
+				79A5B4221D41BBF40041F963 /* Frameworks */,
+				79A5B4231D41BBF40041F963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A5B4271D41BBF40041F963 /* PBXTargetDependency */,
+			);
+			name = HBOOKTests;
+			productName = HBOOKTests;
+			productReference = 79A5B4251D41BBF40041F963 /* HBOOKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A5B42F1D41BBF40041F963 /* HBOOKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A5B43F1D41BBF40041F963 /* Build configuration list for PBXNativeTarget "HBOOKUITests" */;
+			buildPhases = (
+				79A5B42C1D41BBF40041F963 /* Sources */,
+				79A5B42D1D41BBF40041F963 /* Frameworks */,
+				79A5B42E1D41BBF40041F963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A5B4321D41BBF40041F963 /* PBXTargetDependency */,
+			);
+			name = HBOOKUITests;
+			productName = HBOOKUITests;
+			productReference = 79A5B4301D41BBF40041F963 /* HBOOKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A5B4061D41BBF40041F963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MANTOU;
+				TargetAttributes = {
+					79A5B40D1D41BBF40041F963 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					79A5B4241D41BBF40041F963 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79A5B40D1D41BBF40041F963;
+					};
+					79A5B42F1D41BBF40041F963 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79A5B40D1D41BBF40041F963;
+					};
+				};
+			};
+			buildConfigurationList = 79A5B4091D41BBF40041F963 /* Build configuration list for PBXProject "HBOOK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A5B4051D41BBF40041F963;
+			productRefGroup = 79A5B40F1D41BBF40041F963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A5B40D1D41BBF40041F963 /* HBOOK */,
+				79A5B4241D41BBF40041F963 /* HBOOKTests */,
+				79A5B42F1D41BBF40041F963 /* HBOOKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A5B40C1D41BBF40041F963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A5B41F1D41BBF40041F963 /* LaunchScreen.storyboard in Resources */,
+				79A5B41C1D41BBF40041F963 /* Assets.xcassets in Resources */,
+				79A5B4171D41BBF40041F963 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A5B4231D41BBF40041F963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A5B42E1D41BBF40041F963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A5B40A1D41BBF40041F963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A5B41A1D41BBF40041F963 /* HBOOK.xcdatamodeld in Sources */,
+				79A5B4141D41BBF40041F963 /* ViewController.swift in Sources */,
+				79A5B4121D41BBF40041F963 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A5B4211D41BBF40041F963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A5B42A1D41BBF40041F963 /* HBOOKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A5B42C1D41BBF40041F963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A5B4351D41BBF40041F963 /* HBOOKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79A5B4271D41BBF40041F963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A5B40D1D41BBF40041F963 /* HBOOK */;
+			targetProxy = 79A5B4261D41BBF40041F963 /* PBXContainerItemProxy */;
+		};
+		79A5B4321D41BBF40041F963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A5B40D1D41BBF40041F963 /* HBOOK */;
+			targetProxy = 79A5B4311D41BBF40041F963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79A5B4151D41BBF40041F963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A5B4161D41BBF40041F963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79A5B41D1D41BBF40041F963 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A5B41E1D41BBF40041F963 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79A5B4371D41BBF40041F963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A5B4381D41BBF40041F963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A5B43A1D41BBF40041F963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HBOOK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.345ku.demo.HBOOK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		79A5B43B1D41BBF40041F963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HBOOK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.345ku.demo.HBOOK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		79A5B43D1D41BBF40041F963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HBOOKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.345ku.demo.HBOOKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBOOK.app/HBOOK";
+			};
+			name = Debug;
+		};
+		79A5B43E1D41BBF40041F963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HBOOKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.345ku.demo.HBOOKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBOOK.app/HBOOK";
+			};
+			name = Release;
+		};
+		79A5B4401D41BBF40041F963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HBOOKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.345ku.demo.HBOOKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HBOOK;
+			};
+			name = Debug;
+		};
+		79A5B4411D41BBF40041F963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HBOOKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.345ku.demo.HBOOKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HBOOK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A5B4091D41BBF40041F963 /* Build configuration list for PBXProject "HBOOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A5B4371D41BBF40041F963 /* Debug */,
+				79A5B4381D41BBF40041F963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A5B4391D41BBF40041F963 /* Build configuration list for PBXNativeTarget "HBOOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A5B43A1D41BBF40041F963 /* Debug */,
+				79A5B43B1D41BBF40041F963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79A5B43C1D41BBF40041F963 /* Build configuration list for PBXNativeTarget "HBOOKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A5B43D1D41BBF40041F963 /* Debug */,
+				79A5B43E1D41BBF40041F963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79A5B43F1D41BBF40041F963 /* Build configuration list for PBXNativeTarget "HBOOKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A5B4401D41BBF40041F963 /* Debug */,
+				79A5B4411D41BBF40041F963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79A5B4181D41BBF40041F963 /* HBOOK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79A5B4191D41BBF40041F963 /* HBOOK.xcdatamodel */,
+			);
+			currentVersion = 79A5B4191D41BBF40041F963 /* HBOOK.xcdatamodel */;
+			path = HBOOK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79A5B4061D41BBF40041F963 /* Project object */;
+}
